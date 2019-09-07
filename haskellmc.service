@@ -6,3 +6,4 @@ Type=simple
 WorkingDirectory=/opt/haskellmc/
 ExecStart=/usr/bin/java -server -jar /opt/haskellmc/forge-1.12.2-14.23.5.2838-universal.jar -Xmx12G XX:+AggressiveOpts -XX:+UseG1GC -XX:ParallelGCThreads=4 -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled nogui
 Nice=-20
+SuccessExitStatus=143
